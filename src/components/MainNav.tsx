@@ -6,7 +6,8 @@ import UsernameMenu from "./UsernameMenu";
 type Props = {};
 
 const MainNav = (props: Props) => {
-  const { loginWithRedirect, isAuthenticated } = useAuth0();
+  const { loginWithRedirect, isAuthenticated, isLoading } = useAuth0();
+
 
   return (
     <span className="flex space-x-2 items-center">
