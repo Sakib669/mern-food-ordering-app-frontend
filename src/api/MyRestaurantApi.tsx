@@ -5,7 +5,7 @@ import { toast } from "sonner";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
-export const useGetMyRestaurant = () => {
+export const useGetMyRestaurant = (restaurantId?: string ) => {
   const { getAccessTokenSilently } = useAuth0();
 
   const getMyRestaurantRequest = async (): Promise<Restaurant> => {
