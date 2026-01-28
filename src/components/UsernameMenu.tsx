@@ -36,7 +36,7 @@ const UsernameMenu = () => {
             User Profile
           </Link>
         </DropdownMenuItem>
-        <Separator />
+        <Separator className="bg-gray-600"/>
         <DropdownMenuItem>
           <Button
             className="flex flex-1 font-bold hover:text-white bg-orange-500"

@@ -125,11 +125,11 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
         className="space-y-8 bg-gray-50 p-10 rounded-lg"
       >
         <DetailsSection />
-        <Separator />
+        <Separator className="bg-gray-600" />
         <CuisinesSection />
-        <Separator />
+        <Separator className="bg-gray-600" />
         <MenuSection />
-        <Separator />
+        <Separator className="bg-gray-600" />
         <ImageSection />
         {isLoading ? (
           <LoadingButton />

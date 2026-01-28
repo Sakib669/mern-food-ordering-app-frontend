@@ -51,12 +51,12 @@ const OrderSummary = ({ restaurant, cartItems, removeFromCart }: Props) => {
             </span>
           </div>
         ))}
-        <Separator />
+        <Separator className="bg-gray-600"/>
         <div className="flex justify-between">
           <span>Delivery</span>
           <span>${(restaurant.deliveryPrice / 100).toFixed(2)}</span>
         </div>
-        <Separator />
+        <Separator className="bg-gray-600" />
       </CardContent>
     </>
   );

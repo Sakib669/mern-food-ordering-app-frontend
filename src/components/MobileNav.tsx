@@ -36,7 +36,7 @@ const MobileNav = (props: Props) => {
             <span>Welcome to MernEats.com!</span>
           )}
         </SheetTitle>
-        <Separator className="border-b" />
+        <Separator className="border-b bg-gray-600" />
         <SheetDescription className="flex flex-col gap-4">
           {isAuthenticated ? (
             <MobileNavLinks />
